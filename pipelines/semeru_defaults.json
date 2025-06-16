@@ -88,7 +88,7 @@
         "enableTestDynamicParallel" : true,
         "defaultDynamicParas": {
             "testLists"      : ["sanity.jck", "sanity.functional", "sanity.openjdk", "sanity.system", "special.jck", "special.functional", "special.openjdk", "special.system", "extended.jck", "extended.functional", "extended.openjdk", "extended.system", "extended.perf", "dev.functional", "dev.openjdk", "dev.system"],
-            "numMachines"    : ["2", "2", "2", "2", "2", "3", "3", "5", "4", "3", "2", "4", "2", "2"]
+            "numMachines"    : ["2", "2", "2", "2", "2", "3", "3", "5", "4", "3", "2", "4", "2", "2", "2", "2"]
         },
         "ebcEnabledTargets":{
             "linux_x64" :       ["sanity.jck", "sanity.functional", "sanity.openjdk", "sanity.system", "special.jck", "special.functional", "special.openjdk", "special.system", "extended.jck", "extended.functional", "extended.openjdk", "extended.system", "extended.perf", "dev.functional", "dev.openjdk", "dev.system"],
