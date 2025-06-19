@@ -405,7 +405,7 @@ class Build {
     It accepts testType which is one of test targets in AQA e.g. sanity.perf 
     */
     private String allocateEBCnodesForTest(testType) {
-        return 'auto_505_ubux86_test'
+        return 'auto_508_rhel_s390x'
     }
 
     /*
