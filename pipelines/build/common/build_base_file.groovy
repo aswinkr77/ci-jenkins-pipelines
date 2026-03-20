@@ -93,7 +93,7 @@ class Builder implements Serializable {
     IndividualBuildConfig buildConfiguration(Map<String, ?> platformConfig, String variant) {
         // Query the Adopt api to get the "tip_version"
         String helperRef = DEFAULTS_JSON['repository']['helper_ref']
-        def JobHelper = context.library(identifier: "openjdk-jenkins-helper@${helperRef}").JobHelper
+        def JobHelper = context.library(identifier: "aswin-openjdk-jenkins-helper@use-curl").JobHelper
         context.println 'Querying Adoptium API for the JDK-Head number (tip_version)...'
         def response = JobHelper.getAvailableReleases(context)
         int headVersion = (int) response[('tip_version')]
